@@ -23,7 +23,11 @@ body { 	    background-color:#646;
 			margin: 1rem auto; padding-bottom: 10px;
 			border-top-left-radius:25px; box-shadow: 0 0 10px #000;
 			font: 100%/1.4 Verdana, Geneva, sans-serif; }
-header, footer { padding:.5em 1rem .2em 1rem; margin:0; color:#fff; }
+header, footer { padding:.5em 1rem .2em 1rem; margin:0; color:#fff;
+background: url("../img/wood-texture.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
 footer {    background:#fff; background:rgba(235,225,235,1);
             font-size:.8rem; color: #666; }
 main {      background:#fff; background:rgba(215,200,215,1);
@@ -69,4 +73,7 @@ p { 		font-size:90%; margin: 0 0 .5rem 0;  }
 	html { font-size:150%; }
   body { 	width: 80%;
             max-width:1080px; }
+}
+i{
+  padding: .2rem;
 }
